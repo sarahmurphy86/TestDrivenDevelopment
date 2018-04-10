@@ -1,5 +1,5 @@
 def return_10()
-  return 11
+  return 10
 end
 
 def add(number_1, number_2)
@@ -61,5 +61,9 @@ def volume_of_cube(length)
 end
 
 # def volume_of_sphere(radius)
-#   return (0.75*pi)*(radius**3)
+#   return (radius**3)*4/3* Math::PI.to_f
 # end
+
+def farenheit_to_celsius(farenheit)
+  return farenheit/33.8
+end

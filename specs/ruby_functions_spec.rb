@@ -5,7 +5,7 @@ class Functions_Practice < MiniTest::Test
 
   def test_return_10()
     return_10_result = return_10()
-    assert_equal( 11, return_10_result )
+    assert_equal( 10, return_10_result )
 
   end
 
@@ -78,20 +78,19 @@ class Functions_Practice < MiniTest::Test
 
 
 
-#   #Given the radius of a sphere calculate the volume
+# #   #Given the radius of a sphere calculate the volume
 #   def test_volume_of_sphere()
 #     volume_of_sphere_result = volume_of_sphere(3)
-#     asser_equal()
-#
-#     #add test code here
-#
+#     assert_equal(113.1,volume_of_sphere)
 # end
-#
-# =begin
+
+
 #   #Given a value in farenheit, convert this into celsius.
-#   def test_fahrenheit_to_celsius()
-#     (celsius-32)*0.5556
-#     #add test code here
-#   end
-# =end
+  def test_farenheit_to_celsius()
+    farenheit_to_celsius_result = farenheit_to_celsius(33.8)
+    assert_equal(1, farenheit_to_celsius_result)
+    # 1 celsius is 33.8 farenheit
+    #add test code here
+  end
+
 end
