@@ -5,25 +5,25 @@ class Functions_Practice < MiniTest::Test
 
   def test_return_10()
     return_10_result = return_10()
-    assert_equal( 10, return_10_result )
+    assert_equal( 11, return_10_result )
 
   end
-=begin
+
   def test_add()
-    add_result = add( 1, 2 )
-    assert_equal( 3, add_result )
+    add_result = add( 2, 3 )
+    assert_equal( 5, add_result )
   end
 
   def test_subtract()
-    subtract_result = subtract( 10, 5 )
-    assert_equal( 5, subtract_result )
+    subtract_result = subtract( 20, 10 )
+    assert_equal( 10, subtract_result )
   end
 
   def test_multiply()
     multiply_result = multiply( 4, 2 )
     assert_equal( 8, multiply_result )
   end
-
+=begin
   def test_divide()
     divide_result = divide( 10, 2 )
     assert_equal( 5, divide_result )
