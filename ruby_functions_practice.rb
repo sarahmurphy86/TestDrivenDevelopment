@@ -60,9 +60,9 @@ def volume_of_cube(length)
   return length**3
 end
 
-# def volume_of_sphere(radius)
-#   return (radius**3)*4/3* Math::PI.to_f
-# end
+def volume_of_sphere(radius)
+  return (radius**3)*4/3* Math::PI.to_f
+end
 
 def farenheit_to_celsius(farenheit)
   return farenheit/33.8
