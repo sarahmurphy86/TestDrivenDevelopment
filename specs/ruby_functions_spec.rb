@@ -46,7 +46,7 @@ class Functions_Practice < MiniTest::Test
     add_result = add_string_as_number( "2", "2" )
     assert_equal( 4, add_result )
   end
-=begin
+
   def test_number_to_full_name()
     first_month_string = number_to_full_month_name( 1 )
     third_month_string = number_to_full_month_name( 3 )
@@ -65,7 +65,7 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Sep", ninth_month_string )
   end
 
-
+=begin
 
   #Further
 
