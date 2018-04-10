@@ -36,10 +36,10 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_join_string()
-    string_1 = "Mary had a little lamb, "
-    string_2 = "its fleece was white as snow"
+    string_1 = "Hello my name is Davina, "
+    string_2 = "the snow is white"
     joined_string = join_string( string_1, string_2 )
-    assert_equal( "Mary had a little lamb, its fleece was white as snow", joined_string )
+    assert_equal( "Hello my name is Davina, the snow is white", joined_string )
   end
 =begin
   def test_add_string_as_number()
