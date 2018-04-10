@@ -41,12 +41,12 @@ class Functions_Practice < MiniTest::Test
     joined_string = join_string( string_1, string_2 )
     assert_equal( "Hello my name is Davina, the snow is white", joined_string )
   end
-=begin
-  def test_add_string_as_number()
-    add_result = add_string_as_number( "1", "2" )
-    assert_equal( 3, add_result )
-  end
 
+  def test_add_string_as_number()
+    add_result = add_string_as_number( "2", "2" )
+    assert_equal( 4, add_result )
+  end
+=begin
   def test_number_to_full_name()
     first_month_string = number_to_full_month_name( 1 )
     third_month_string = number_to_full_month_name( 3 )
