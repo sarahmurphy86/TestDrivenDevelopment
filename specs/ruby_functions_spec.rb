@@ -28,7 +28,7 @@ class Functions_Practice < MiniTest::Test
     divide_result = divide( 10, 2 )
     assert_equal( 5, divide_result )
   end
-=begin
+
   def test_length_of_string()
     test_string = "A string of length 21"
     length_of_string = length_of_string( test_string )
@@ -41,7 +41,7 @@ class Functions_Practice < MiniTest::Test
     joined_string = join_string( string_1, string_2 )
     assert_equal( "Mary had a little lamb, its fleece was white as snow", joined_string )
   end
-
+=begin
   def test_add_string_as_number()
     add_result = add_string_as_number( "1", "2" )
     assert_equal( 3, add_result )
