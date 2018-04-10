@@ -65,24 +65,31 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Sep", ninth_month_string )
   end
 
-=begin
+
 
   #Further
 
   #Given the length of a side of a cube calculate the volume
   def test_volume_of_cube()
-    #add test code here
+      volume_of_cube_result = volume_of_cube(2)
+      assert_equal(8, volume_of_cube_result)
+
   end
+
+=begin
 
   #Given the radius of a sphere calculate the volume
   def test_volume_of_sphere()
+    (0.75*pi)*(radius**3)
+
     #add test code here
-  end
+
+end
 
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
+    (celsius-32)*0.5556
     #add test code here
   end
 =end
-
 end
