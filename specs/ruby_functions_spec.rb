@@ -85,6 +85,7 @@ class Functions_Practice < MiniTest::Test
     volume_of_sphere_result = volume_of_sphere(radius)
     assert_equal(113, volume_of_sphere_result)
 end
+#I get a fail - cannot get values to be equal due to decimal
 
 
 #   #Given a value in farenheit, convert this into celsius.
